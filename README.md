@@ -1,0 +1,2 @@
+# faq
+Laravel FAQ Package.
