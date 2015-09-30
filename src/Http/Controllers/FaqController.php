@@ -1,6 +1,6 @@
 <?php namespace Taskforcedev\Faq\Http\Controllers;
 
-use Taskforcedev\LaravelSupport\Http\Controller\Controller;
+use Taskforcedev\LaravelSupport\Http\Controllers\Controller;
 
 class FaqController extends Controller
 {
