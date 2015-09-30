@@ -12,4 +12,4 @@
             </div>
         @endforeach
     @endif
-@stopsection
+@endsection
