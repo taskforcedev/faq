@@ -26,7 +26,7 @@ class Migrator
 
     private function tablesExist()
     {
-        $tables = [ 'faq_questions' ]
+        $tables = [ 'faq_questions' ];
         foreach ($tables as $t) {
             if (!Schema::hasTable($t)) {
                 return false;
