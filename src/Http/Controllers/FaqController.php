@@ -1,6 +1,8 @@
 <?php namespace Taskforcedev\Faq\Http\Controllers;
 
-class FaqController extends BaseController
+use Taskforcedev\LaravelSupport\Http\Controller\Controller;
+
+class FaqController extends Controller
 {
     /**
      * Paginated list of questions with answers.

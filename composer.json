@@ -1,0 +1,22 @@
+{
+    "name": "taskforcedev/faq",
+    "description": "Laravel 5 FAQ package",
+    "authors": [
+        {
+            "name": "taskforcedev",
+            "email": "taskforce2eu@gmail.com"
+        }
+    ],
+    "keywords": ["faq", "laravel"],
+    "require": {
+        "php": ">=5.5.0",
+        "laravel/framework": "5.*",
+        "taskforcedev/laravel-support": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Taskforcedev\\Faq\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

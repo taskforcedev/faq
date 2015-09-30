@@ -1,6 +1,8 @@
 <?php namespace Taskforcedev\Faq\Http\Controllers;
 
-class AdminController extends BaseController
+use Taskforcedev\LaravelSupport\Http\Controller\Controller;
+
+class AdminController extends Controller
 {
     /**
      * Paginated list of questions with answers.
@@ -31,6 +33,6 @@ class AdminController extends BaseController
 
     private function isAdmin()
     {
-        
+
     }
 }
