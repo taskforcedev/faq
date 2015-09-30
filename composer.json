@@ -11,12 +11,12 @@
     "require": {
         "php": ">=5.5.0",
         "laravel/framework": "5.*",
-        "taskforcedev/laravel-support": "dev-master@dev"
+        "taskforcedev/laravel-support": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "Taskforcedev\\Faq\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
