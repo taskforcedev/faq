@@ -9,5 +9,7 @@ class InstallController extends Controller
     {
         $migrator = new Migrator();
         $migrator->migrate();
+
+        return view('laravel-faq::install.complete');
     }
 }
