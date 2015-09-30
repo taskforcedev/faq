@@ -18,7 +18,7 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     public function boot()
     {
-        $this->config();
+        // $this->config();
         $this->views();
         $this->routes();
     }
