@@ -34,6 +34,10 @@ class AdminController extends Controller
      */
     public function store()
     {
+        $data = $this->buildData();
+        if (!$data['isAdmin']) {
+            return redirect()->to('/');
+        }
         $data = Input::only('question', 'answer');
     }
 }
