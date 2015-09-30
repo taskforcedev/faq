@@ -14,4 +14,4 @@
 
     <input type="submit" class="btn btn-primary" value="Create" />
 </form>
-@stopsection
+@endsection
