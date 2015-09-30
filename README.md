@@ -9,7 +9,7 @@ To install the package first of all you should add the package to your projects 
 
 Then run <code>composer update</code>
 
-Then add the service provider to your config/app.php
+Then add the service provider(s) to your config/app.php
 
 <code>'providers' => [
     ...
