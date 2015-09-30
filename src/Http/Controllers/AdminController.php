@@ -11,6 +11,9 @@ class AdminController extends Controller
     public function index()
     {
         $data = $this->buildData();
+        if (!$data['isAdmin']) {
+            return redirect()->to('/');
+        }
         return view('laravel-faq::admin.index', $data);
     }
 
@@ -20,6 +23,9 @@ class AdminController extends Controller
     public function create()
     {
         $data = $this->buildData();
+        if (!$data['isAdmin']) {
+            return redirect()->to('/');
+        }
         return view('laravel-faq::admin.create', $data);
     }
 
@@ -29,10 +35,5 @@ class AdminController extends Controller
     public function store()
     {
         $data = Input::only('question', 'answer');
-    }
-
-    private function isAdmin()
-    {
-
     }
 }
