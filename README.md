@@ -17,9 +17,9 @@ Then add the following service provider(s) to your config/app.php (the laravel-s
     Taskforcedev\Faq\ServiceProvider::class,
 ]</code>
 
-Then publish the config
+Then publish the laravel-support config (if you do not have this already)
 
-php artisan vendor:publish --provider="Taskforcedev\LaravelFaq\ServiceProvider" --tag="config"
+<code>php artisan vendor:publish --tag="taskforce-support"</code>
 
 Edit the config, in particular the layout to match your sites master layout.
 
